@@ -8,7 +8,8 @@
 .footer-bar,
 .footer-bar-post,
 .view-more-list,
-.share {
+.share,
+.footer-link {
     padding: 0;
     list-style: none;
 }

@@ -65,6 +65,10 @@
         justify-content: space-between;
     }
 
+    .blog-logo {
+        font-size: 35px;
+    }
+
     .nav-link {
         font-size: 24px;
     }
@@ -92,6 +96,10 @@
     .nav-bar {
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    .blog-logo {
+        font-size: 43px;
     }
 
     .nav-link {
@@ -165,6 +173,8 @@
 .card-description {
     margin: 3px 0;
     height: 155px;
+    padding: 0;
+    text-align: start;
 }
 
 .clear-button {

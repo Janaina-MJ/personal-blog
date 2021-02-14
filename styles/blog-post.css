@@ -33,22 +33,45 @@
     }
 }
 
+/* blog-post-page: header style - start */
 .blog-post-header {
     box-shadow: 0 5px 10px lightgrey;
 }
 
+/* blog-post-page: header style - end */
+
+/* blog-post-page: article style - start */
 .blog-post-article {
     margin: 25px auto;
+    padding: 0 15px;
+    max-width: 600px;
 }
 
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url(/img/profile-picture.png);
+    background-size: cover;
+}
+/* blog-post-page: article style - end */
+
+/* blog-post-page: section menu style - start */
 .blog-post-nav {
     background-color: #3daab8;
     height: 260px;
     padding: 15px 0;
 }
 
+.view-more-link {
+    padding: 3px;
+}
+/* blog-post-page: section menu style - end */
+
+/* blog-post-page: footer style - start */
 .footer-bar-post {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+/* blog-post-page: footer style - start */
