@@ -42,17 +42,99 @@
 
 /* blog-post-page: article style - start */
 .blog-post-article {
-    margin: 25px auto;
+    margin: 15px auto 150px;
     padding: 0 15px;
     max-width: 600px;
 }
 
 .avatar {
-    width: 30px;
-    height: 30px;
+    width: 33px;
+    height: 33px;
     border-radius: 50%;
     background-image: url(/img/profile-picture.png);
     background-size: cover;
+    margin-right: 5px;
+}
+
+.author-info {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 20px 0;
+}
+
+.author-name {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.about-author {
+    font-size: 9px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.author-description {
+    list-style: none;
+    color: grey;
+    padding: 0 6px 0 0;
+}
+
+.post-date {
+    color: grey;
+}
+
+.figures {
+    margin: 15px 0;
+}
+
+.list-header {
+    font-size: 18px;
+}
+
+.list-item {
+    font-size: 16px;
+}
+
+.footer-quote {
+    margin-left: 10px;
+}
+
+.related-articles {
+    font-weight: 600;
+    margin-top: 55px;
+}
+
+.share {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 5px;
+}
+
+.share-item {
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+@media(min-width: 360px) {
+    .about-author {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 730px) {
+    .article-title {
+        font-size: 40px;
+    }
+
+    .author-name {
+        font-size: 14px;
+    }
+
+    .about-author {
+        font-size: 13px;
+    }
 }
 /* blog-post-page: article style - end */
 

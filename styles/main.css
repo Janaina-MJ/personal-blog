@@ -53,6 +53,7 @@
 
 .nav-link {
     padding: 1px;
+    margin: 0;
 }
 
 .menu {
@@ -163,6 +164,7 @@
 
 .post-link {
     font-size: 21px;
+    text-align: start;
 }
 
 .date {
@@ -243,6 +245,7 @@
 
 .footer-menu {
     padding: 7px;
+    margin: 0;
 }
 
 .footer-link {

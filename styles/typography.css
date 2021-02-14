@@ -29,20 +29,29 @@ p {
 h1 {
     font-family: "Big Shoulders Display", serif;
     color: #ef6b50;
-    font-size: 30px;
-    padding: 10px 0;
+    font-size: 35px;
+    padding: 15px 0;
 }
 
 h2 {
     font-family: "Big Shoulders Display", serif;
     color: #0274be;
+    font-size: 33px;
     padding: 10px 0;
 }
 
 h3 {
     font-family: "Big Shoulders Display", serif;
     color: #3daab8;
-    padding: 10px 0;
+    font-size: 26px;
+    padding: 9px 0;
+}
+
+h4 {
+    font-family: "Big Shoulders Display", serif;
+    color: #474747;
+    font-size: 20px;
+    padding: 6px 0;
 }
 
 button {
@@ -52,11 +61,22 @@ button {
 
 blockquote {
     font-family: sans-serif;
-    padding: 5px;
+    margin: 20px 0 25px 25px;
     font-size: 0.9em;
 }
 
 li {
     font-family: "Raleway", sans-serif;
     color: #474747;
+}
+
+figcaption {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+footer {
+    font-family: "Raleway", sans-serif;
+    margin: 5px 0;
 }
