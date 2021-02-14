@@ -13,8 +13,6 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    margin: 0 auto;
-    padding:0;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 106px 1fr 170px;
@@ -51,15 +49,6 @@
     align-items: center;
     padding: 0;
     margin: 0;
-}
-
-#logo {
-    margin: 0;
-    color: #ef6b50;
-}
-
-#logo-2 {
-    color: #3daab8;
 }
 
 .nav-link {

@@ -10,8 +10,14 @@ p {
     color: #474747;
 }
 
-.blog-logo {
+#logo {
     font-family: "Oleo Script", sans-serif;
+    color: #ef6b50;
+}
+
+#logo-2 {
+    font-family: "Oleo Script", sans-serif;
+    color: #3daab8;
 }
 
 h1 {
@@ -36,4 +42,9 @@ button {
 
 blockquote {
     font-family: sans-serif;
+}
+
+li {
+    font-family: "Raleway", sans-serif;
+    color: #474747;
 }
