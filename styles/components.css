@@ -1,5 +1,20 @@
-li {
+.nav-link,
+.footer-menu,
+.view-more-link {
     list-style: none;
+}
+
+.homepage-nav,
+.footer-bar,
+.footer-bar-post,
+.view-more-list,
+.share {
+    padding: 0;
+    list-style: none;
+}
+
+.social-media {
+    color: #3daab8;
 }
 
 img {
@@ -13,4 +28,9 @@ img {
     font-size: 16px;
     cursor: pointer;
     padding: 10px 5px;
+}
+
+ol,
+ul {
+    padding: 0 0 0 50px;
 }

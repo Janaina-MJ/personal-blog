@@ -2,15 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Travel blog sharing best travel destinations, travel tips, travel planning, videos and photography from around the world.">
+    <meta name="keywords" content="travel, destinations, blog, trip">
+    <meta name="author" content="Janaina MJ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Post</title>
     <script src="https://kit.fontawesome.com/a20cff004d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/styles/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500;600;700;800&family=Oleo+Script:wght@700&family=Raleway:ital,wght@0,200;0,500;0,700;0,800;1,200;1,500;1,700;1,800&display=swap" rel="stylesheet">
 </head>
 <body class="blog-post-body">
     <header class="blog-post-header">
         <div class="div-logo">
-            <a href="./index.html" id="logo">Go <span id="logo-2">travel</span></a>
+            <a href="./index.html"><h1 id="logo">Go <span id="logo-2">travel</span></h1></a>
         </div>
         <form class="search-bar">
             <input type="search" id="search">
@@ -28,7 +33,10 @@
                 </div>
                 <div class="author">
                     <a href="./about-subscribe.html" class="author-name">Author Name</a>
-                    <p class="author-description">Student at Udacity - Front End Nanodegree - February 2, 2021</p>
+                    <ul class="about-author">
+                        <li class="author-description">Student at Udacity - Front End Nanodegree</li>
+                        <li>February 2, 2021</li>
+                    </ul>
                 </div>
             </div>
         </header>
@@ -63,50 +71,53 @@
             <p>Related: <a href="#">Example Blog Post</a>, <a href="#"> Another Example Blog Post</a></p>
             <ul class="share">
                 <li>
-                    <a class="social-media">
-                        <i class="fab fa-github"></i>
+                    <a href="#" name="share">
+                        <i class="fab fa-github social-media"></i>
                     </a>
                 </li>
                 <li>
-                    <a class="social-media">
-                        <i class="fab fa-twitter"></i>
+                    <a href="#">
+                        <i class="fab fa-twitter social-media"></i>
                     </a>
                 </li>
                 <li>
-                    <a class="social-media">
-                        <i class="fab fa-facebook-f"></i>
+                    <a href="#">
+                        <i class="fab fa-facebook-f social-media"></i>
                     </a>
                 </li>
             </ul>
         </footer>
     </article>
-    <section class="blog-post-menu">
+    <section class="post-menu">
         <nav class="blog-post-nav">
-            <ul class="footer-bar">
+            <ul class="footer-bar-post">
                 <li class="footer-menu">
                     <a href="/index.html" class="footer-link">Back to Blog</a>
                 </li>
                 <li class="footer-menu">
-                    <a href="./about-subscribe.html" class="footer-link">About</a>
+                    <a href="#" class="footer-link">Destinations</a>
                 </li>
                 <li class="footer-menu">
                     <a href="./about-subscribe.html" class="footer-link">Subscribe</a>
                 </li>
+                <li class="footer-menu">
+                    <a href="./about-subscribe.html" class="footer-link">Who we are</a>
+                </li>
             </ul>
         </nav>
+        <div class="view-more">
+            <h2>View More</h2>
+            <ul class="view-more-list">
+                <li class="view-more-link"><a href="#">Sample Blog Post</a></li>
+                <li class="view-more-link"><a href="#">Just Another Blog Post</a></li>
+                <li class="view-more-link"><a href="#">Post Title</a></li>
+                <li class="view-more-link"><a href="#">Aliquam pellentesque lectus</a></li>
+                <li class="view-more-link"><a href="#">Just Another Blog Post</a></li>
+                <li class="view-more-link"><a href="#">Phasellus iaculis venenatis diam</a></li>
+            </ul>
+        </div>
     </section>
-    <section class="view-more">
-        <h2>View More</h2>
-        <ul>
-            <li><a href="#">Sample Blog Post</a></li>
-            <li><a href="#">Just Another Blog Post</a></li>
-            <li><a href="#">Post Title</a></li>
-            <li><a href="#">Aliquam pellentesque lectus</a></li>
-            <li><a href="#">Just Another Blog Post</a></li>
-            <li><a href="#">Phasellus iaculis venenatis diam</a></li>
-        </ul>
-    </section>
-    <footer class="footer">
+    <footer class="footer footer-post">
         <p class="copyright">Copyright 2021</p>
     </footer>
 </body>
