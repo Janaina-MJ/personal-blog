@@ -103,6 +103,10 @@
         font-size: 43px;
     }
 
+    .blog-post-logo {
+        font-size: 40px;
+    }
+
     .nav-link {
         font-size: 30px;
     }
@@ -123,6 +127,11 @@
         100% {
             border-bottom: 3px solid #000;
         }
+    }
+
+    .check-button::before {
+        width: 42px;
+        height: 42px;
     }
 }
 /* homepage nav-bar style - end */
@@ -188,6 +197,10 @@
         width: 565px;
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .search-icon {
+        font-size: 25px;
+    }
 }
 
 @media (min-width: 911px) {
@@ -223,6 +236,10 @@
 
     .clear-button {
         align-self: flex-end;
+    }
+
+    .search-icon {
+        font-size: 25px;
     }
 }
 /* homepage section post-cards style - end */

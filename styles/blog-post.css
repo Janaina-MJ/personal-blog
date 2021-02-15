@@ -4,15 +4,16 @@
    height: 100%;
    display: grid;
    grid-template-columns: 1fr;
-   grid-template-rows: 75px 1fr auto auto;
+   grid-template-rows: 75px 1fr auto auto auto;
 }
 
 @media (min-width: 911px) {
     .blog-post-body {
-        grid-template-columns: 1fr 260px;
+        grid-template-columns: 70% 30%;
         grid-template-rows: 75px 1fr auto;
         grid-template-areas: "header header"
                             "article menus"
+                            "nav nav"
                             "footer footer";
     }
 
@@ -27,23 +28,100 @@
     .blog-menu {
         grid-area: menus;
     }
+
+    .blog-post-nav {
+        grid-area: nav;
+    }
     
     .footer-post {
         grid-area: footer;
     }
 }
 
+@media (min-width: 2800px) {
+    .blog-post-body {
+        grid-template-columns: 75% 25%;
+    }
+}
+
 /* blog-post-page: header style - start */
 .blog-post-header {
     box-shadow: 0 5px 10px lightgrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
 }
 
+.search-bar {
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    right: 20px;
+}
+
+#check {
+    display: none;
+}
+
+.check-button {
+    cursor: pointer;
+    background-color: #ef6b50;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.check-button::before {
+    content: "";
+    background-color: #ef6b50;
+    border-radius: 30px 0 0 30px;
+    width: 38px;
+    height: 35px;
+    position: absolute;
+    right: 19px;
+    top: 0;
+    z-index: -1;
+}
+
+.search-icon {
+    color: black;
+}
+
+.search-input {
+    width: 0;
+    border-style: none;
+    background-color: #ef6b50;
+    color: white;
+    padding: 10px;
+    border-radius: 30px 0 0 30px;
+}
+
+.search-input:focus {
+    border: 0 none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+#check:checked ~ .search-input {
+    animation: search-width linear 0.5s forwards;
+}
+
+@keyframes search-width {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
 /* blog-post-page: header style - end */
 
 /* blog-post-page: article style - start */
 .blog-post-article {
-    margin: 15px auto 150px;
-    padding: 0 15px;
+    margin: 15px auto 90px;
+    padding: 0 12px;
     max-width: 600px;
 }
 
@@ -108,7 +186,7 @@
 .share {
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: flex-end;
     margin: 5px;
 }
 
@@ -136,24 +214,93 @@
         font-size: 13px;
     }
 }
+
+@media (min-width: 911px) {
+    .blog-post-article {
+        max-width: 80%;
+    }
+}
 /* blog-post-page: article style - end */
 
 /* blog-post-page: section menu style - start */
 .blog-post-nav {
     background-color: #3daab8;
-    height: 260px;
-    padding: 15px 0;
+    height: 200px;
+    padding: 15px 10px;
+}
+
+.other-sections {
+    height: auto;
+}
+
+.view-more {
+    padding: 20px 10px 50px;
+    text-align: center;
 }
 
 .view-more-link {
     padding: 3px;
 }
-/* blog-post-page: section menu style - end */
 
-/* blog-post-page: footer style - start */
+.other-sections-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.other-sections-menu {
+    margin: 0;
+    height: 100px;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.destinations {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.20)), url(/img/ribblehead-viaduct.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.travel-resources {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.20)), url(/img/maldives.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.photography {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.20)), url(/img/sunrise.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.type-of-trip {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.20)), url(/img/canal.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.other-sections-link {
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
 .footer-bar-post {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+@media (min-width: 911px) {
+    .view-more {
+        text-align: start;
+    }
+}
+/* blog-post-page: section menu style - end */
+
+/* blog-post-page: footer style - start */
+.footer-post {
+    margin: 0;
 }
 /* blog-post-page: footer style - start */

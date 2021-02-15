@@ -18,6 +18,13 @@ p {
     font-size: 24px;
     padding: 0;
 }
+
+.blog-post-logo {
+    font-family: "Oleo Script", sans-serif;
+    padding: 0;
+    font-size: 35px;
+}
+
 #logo {
     color: #ef6b50;
 }

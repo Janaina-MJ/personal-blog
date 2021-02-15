@@ -15,13 +15,14 @@
 <body class="blog-post-body">
     <header class="blog-post-header">
         <div class="div-logo">
-            <a href="./index.html"><h1 id="logo" class="blog-logo">Go <span id="logo-2" class="blog-logo">travel</span></h1></a>
+            <a href="./index.html"><h1 id="logo" class="blog-post-logo">Go <span id="logo-2" class="blog-post-logo">travel</span></h1></a>
         </div>
         <form class="search-bar">
-            <input type="search" id="search">
-            <label for="search" class="search-btn">
-                <i class="fas fa-search"></i>
+            <input type="checkbox" id="check">
+            <label for="check" class="check-button">
+                <i class="fas fa-search search-icon"></i>
             </label>
+            <input type="search" id="search" placeholder="Search..." class="search-input">
         </form>
     </header>
     <article class="blog-post-article">
@@ -87,22 +88,6 @@
         </footer>
     </article>
     <section class="post-menu">
-        <nav class="blog-post-nav">
-            <ul class="footer-bar-post">
-                <li class="footer-menu">
-                    <a href="/index.html" class="footer-link">Back to Blog</a>
-                </li>
-                <li class="footer-menu">
-                    <a href="#" class="footer-link">Destinations</a>
-                </li>
-                <li class="footer-menu">
-                    <a href="./about-subscribe.html" class="footer-link">Subscribe</a>
-                </li>
-                <li class="footer-menu">
-                    <a href="./about-subscribe.html" class="footer-link">Who we are</a>
-                </li>
-            </ul>
-        </nav>
         <div class="view-more">
             <h2>View More</h2>
             <ul class="view-more-list">
@@ -114,7 +99,36 @@
                 <li class="view-more-link"><a href="#">Phasellus iaculis venenatis diam</a></li>
             </ul>
         </div>
+        <section class="other-sections">
+            <ul class="other-sections-list">
+                <li class="other-sections-menu destinations">
+                    <a href="#" class="other-sections-link">Destinations</a>
+                </li>
+                <li class="other-sections-menu travel-resources">
+                    <a href="#" class="other-sections-link">Travel Resources</a>
+                </li>
+                <li class="other-sections-menu photography">
+                    <a href="#" class="other-sections-link">Photography</a>
+                </li>
+                <li class="other-sections-menu type-of-trip">
+                    <a href="#" class="other-sections-link">Type of Trip</a>
+                </li>
+            </ul>
+        </section>
     </section>
+    <nav class="blog-post-nav">
+        <ul class="footer-bar-post">
+            <li class="footer-menu">
+                <a href="/index.html" class="footer-link">Back to Blog</a>
+            </li>
+            <li class="footer-menu">
+                <a href="./about-subscribe.html" class="footer-link">Subscribe</a>
+            </li>
+            <li class="footer-menu">
+                <a href="./about-subscribe.html" class="footer-link">About</a>
+            </li>
+        </ul>
+    </nav>
     <footer class="footer-post">
         <p class="copyright">Copyright 2021</p>
     </footer>

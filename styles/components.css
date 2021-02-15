@@ -1,5 +1,6 @@
 .nav-link,
 .footer-menu,
+.other-sections-menu,
 .share-item,
 .view-more-link {
     list-style: none;
@@ -8,9 +9,11 @@
 .homepage-nav,
 .footer-bar,
 .footer-bar-post,
+.other-sections-list,
 .view-more-list,
 .share,
-.footer-link {
+.footer-link,
+.other-sections-link {
     padding: 0;
     list-style: none;
 }
