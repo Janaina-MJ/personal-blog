@@ -33,6 +33,7 @@ img {
     font-size: 16px;
     cursor: pointer;
     padding: 10px 5px;
+    outline: none;
 }
 
 ol li {
