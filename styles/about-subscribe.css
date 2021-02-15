@@ -1,0 +1,148 @@
+.info {
+    margin: 0;
+    padding: 0;
+}
+
+.about-subscribe {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+}
+
+.about{
+    padding: 25px 0 100px;
+    width: 90%;
+    justify-self: center;
+}
+
+.about-header{
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 10px 0;
+    align-items: center;
+}
+
+.about-avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: url(/img/profile-picture.png);
+    background-size: cover;
+    margin-right: 5px;
+}
+
+.subscribe {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.20)), url(/img/polynesia.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-form {
+    background-color: rgba(250, 250, 250, 0.90);
+    width: 250px;
+    height: auto;
+    padding: 25px 15px;
+    border-radius: 10px;
+}
+
+.follow-us {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.form-label {
+    color: #3daab8;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+}
+
+.field-set{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+.form-label{
+    padding-bottom: 5px;
+}
+
+.fields{
+    background-color: #ef6b50;
+    border-radius: 20px;
+    border-style: none;
+    padding: 15px;
+    color: #fff;
+}
+
+.fields:focus {
+    border: 0 none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.submit-btn {
+    background-color: #bbe2e7;
+    color: #0274be;
+    border-style: none;
+    padding: 10px;
+    border-radius: 20px;
+    align-self: center;
+    font-weight: 600;
+}
+
+.submit-btn:hover {
+    background-color: #0274be;
+    color: #fff;
+}
+
+.about-footer {
+    margin: 0;
+}
+
+@media (min-width: 350px) and (max-width: 450px) {
+    .subscribe-form {
+        width: 90%;
+    }
+}
+
+@media (min-width: 451px) {
+    .subscribe-form {
+        width: 65%;
+        max-width: 490px;
+    }
+}
+
+@media (min-width: 730px) {
+    .subscribe-form {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (min-width: 911px) {
+    .about-subscribe {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr;
+        width: 90%;
+        height: auto;
+        margin: 100px auto;
+    }
+
+    .about {
+        padding-left: 0;
+        padding-right: 15px;
+    }
+
+    .subscribe {
+        padding: 0;
+    }
+}

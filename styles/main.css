@@ -2,6 +2,7 @@
 @import "nav-bar.css";
 @import "typography.css";
 @import "components.css";
+@import "about-subscribe.css";
 
 *{
     margin: 0;

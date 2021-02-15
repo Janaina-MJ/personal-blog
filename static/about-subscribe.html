@@ -2,11 +2,85 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Travel blog sharing best travel destinations, travel tips, travel planning, videos and photography from around the world.">
+    <meta name="keywords" content="travel, destinations, blog, trip">
+    <meta name="author" content="Janaina MJ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Go travel and Subscribe</title>
-    <link rel="stylesheet" href="styles/main.css">
+    <title>Blog Homepage</title>
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500;600;700;800&family=Oleo+Script:wght@700&family=Raleway:ital,wght@0,200;0,500;0,700;0,800;1,200;1,500;1,700;1,800&display=swap" rel="stylesheet">
 </head>
-<body>
-    
+<body class="homepage-body">
+    <nav class="homepage-nav" id="home">
+        <ul class="nav-bar">
+            <li class="nav-link">
+                <a href="/index.html" class=><h1 id="logo" class="blog-logo">Go <span id="logo-2" class="blog-logo">travel</span></h1></a>
+            </li>
+            <li class="nav-link menu">
+                <a href="#">About</a>
+            </li>
+            <li class="nav-link menu">
+                <a href="#">Destinations</a>
+            </li>
+            <li class="nav-link menu">
+                <a href="#">Subscribe</a>
+            </li>
+        </ul>
+    </nav>
+    <section class="info">
+        <div class="about-subscribe">
+            <section class="about">
+                <div class="about-header">
+                    <div class="about-avatar"></div>
+                    <div class="author">
+                        <a href="./about-subscribe.html" class="author-name">Author Name</a>
+                        <ul class="about-author">
+                            <li class="author-description">Student at Udacity</li>
+                            <li>Front End Nanodegree</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan euismod massa, eget tempus nibh posuere ut. Aenean aliquam ac tortor sit amet auctor. Aliquam ultrices tincidunt leo, accumsan dapibus neque lacinia finibus. Nunc rutrum velit nec lectus iaculis facilisis. Fusce placerat ligula facilisis nisl aliquam suscipit. In aliquam, diam sed pharetra condimentum, nisi nulla accumsan massa, nec malesuada eros augue non odio. Aenean eleifend fermentum turpis, eu mollis nunc tempor in.</p>
+                    <p>Fusce ut sodales sapien. Nulla pellentesque dictum dignissim. Nulla facilisi. Phasellus posuere orci sit amet mi congue scelerisque. Mauris hendrerit arcu nulla, a facilisis nulla convallis eget. Nullam at pharetra sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam semper sem at sagittis semper. </p>
+                    <p>Mauris eget hendrerit metus. Proin sodales dolor sed pharetra efficitur. Nulla rutrum dolor ac gravida tempus. Aliquam mollis nulla pretium magna porta maximus. Quisque in gravida sem.</p>
+                </div>
+            </section>
+            <section class="subscribe">
+                <form class="subscribe-form">
+                    <h2 class="follow-us">Follow by Email</h2>
+                    <p></p>
+                    <div class="field-set">
+                        <label for="name" id="name-label" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" class="fields" placeholder= "Enter your name" required>
+                    </div>
+                    <div class="field-set">
+                        <label for="email" id="email-label" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="fields" placeholder= "Enter your email" required>
+                    </div>
+                    <div class="field-set">
+                        <button type="submit" id="submit" class="submit-btn">Subscribe</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </section>
+    <footer class="homepage-footer about-footer">
+        <nav>
+            <ul class="footer-bar">
+                <li class="footer-menu">
+                    <a href="/index.html" class="footer-link">Home</a>
+                </li>
+                <li class="footer-menu">
+                    <a href="#" class="footer-link">About</a>
+                </li>
+                <li class="footer-menu">
+                    <a href="#" class="footer-link">Subscribe</a>
+                </li>
+            </ul>
+        </nav>
+        <p class="copyright">Copyright 2021</p>
+    </footer>
 </body>
 </html>
