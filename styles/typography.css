@@ -68,8 +68,12 @@ button {
 
 blockquote {
     font-family: sans-serif;
-    margin: 20px 0 25px 25px;
+    margin: 20px 15px 25px 25px;
     font-size: 0.9em;
+    text-align: justify;
+    font-family: "Raleway", sans-serif;
+    color: #474747;
+    line-height: 1.3em;
 }
 
 li {

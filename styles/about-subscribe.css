@@ -18,6 +18,7 @@
 .about-header{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin: 0 0 10px 0;
     align-items: center;
 }
@@ -107,7 +108,7 @@
     margin: 0;
 }
 
-@media (min-width: 350px) and (max-width: 450px) {
+@media (max-width: 450px) {
     .subscribe-form {
         width: 90%;
     }
