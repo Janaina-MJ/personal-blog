@@ -1,24 +1,38 @@
 # personal-blog
 
+This is a project to [Udacity](https://www.udacity.com/us)'s Front End Web Developer nanodegree.
+
 ## Overview:
 
-Udacity Project - Building a Personal Blog Website using HTML and CSS only.
+This is an example of a Personal blog, which includes two pages, the blog Homepage and the blog Post.
 
-## Language used:
+## Project Intro
 
-- HTML
-- CSS
+* Building a Personal Blog Website using HTML and CSS only.
 
-## Project Instructions:
+* The goal of this project is to get practice with:
 
-- Must include custom images, layout and styling
-- Should include, at minimum, 2 HTML files related to: the blog website and a blog post
-- implement Design System
-- use typography
-- Build mobile-friendly pages (displays correctly on all display sizes - mobie, tablet, desktop)
+  - Using HTML5 with semantic tags
+  - Including custom images, layout and styling
+  - Should include, at minimum, 2 HTML files related to: the blog website and a blog post
+  - Creating a Design System
+  - Formalizing/Implementing Design System
+  - Creatind appropriate user flow on pages with links as needed 
+  - Using typography
+  - Building mobile-friendly pages (displays correctly on all display sizes - mobie, tablet, desktop)
 
-## How to run the project:
+* Language and tools for this project:
 
-Fork this repo, then clone the branch master from your forked repo down to your computer:
+  - HTML5
+  - CSS
+  - Design System (Figma)
 
-- git clone url
+* Project rubric: 
+
+Check out the specifications [here](https://review.udacity.com/#!/rubrics/2668/view).
+
+## Getting Started
+
+Follow the steps below to get the project running.
+
+Clone this Github repository 
