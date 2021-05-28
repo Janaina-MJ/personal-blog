@@ -35,4 +35,5 @@ Check out the specifications [here](https://review.udacity.com/#!/rubrics/2668/v
 
 Follow the steps below to get the project running.
 
-Clone this Github repository 
+Clone this Github repository and then open the file index.html
+You will see the blog page in your browser.
