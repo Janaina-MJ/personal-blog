@@ -29,7 +29,7 @@ This is an example of a Personal blog, which includes two pages, the blog Homepa
 
 * Project rubric: 
 
-Check out the specifications [here](https://review.udacity.com/#!/rubrics/2668/view).
+Check out the specifications [here](https://review.udacity.com/#!/rubrics/2667/view).
 
 ## Getting Started
 
