@@ -6,6 +6,10 @@ This is a project to [Udacity](https://www.udacity.com/us)'s Front End Web Devel
 
 This is an example of a Personal blog, which includes two pages, the blog Homepage and the blog Post.
 
+## 👀 Check it Out: 
+
+https://personal-blog-iota-wine.vercel.app
+
 ## Project Intro
 
 * Building a Personal Blog Website using HTML and CSS only.
