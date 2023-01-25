@@ -4,7 +4,7 @@ This is a project to [Udacity](https://www.udacity.com/us)'s Front End Web Devel
 
 ## Overview:
 
-This is an example of a responsive Personal blog, which includes two pages, the blog Homepage and the blog Post, using html and css only.
+This is an example of a responsive Personal blog - theme: travel, which contains three pages (the Homepage, blog Post and About Me page). It was done using html and css only.
 
 ## 👀 Check it Out: 
 
