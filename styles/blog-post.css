@@ -75,6 +75,7 @@
     background-color: #ef6b50;
     border-radius: 50%;
     padding: 8px;
+    height: 39px;
 }
 
 .check-button::before {
